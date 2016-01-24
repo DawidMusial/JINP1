@@ -20,7 +20,7 @@ fi( int i, double x)
 	if ( i == 0 ) {
 		return 	1;
 	}  else if ( i == 1 ){
-		return sin(x)
+		return sin(x);
 	}else {
 		if(i % 2) return  cos( i / 2 * x) + fi( i-1, x );
 		else return sin( ( i - 1 ) / 2 * x) + fi( i-1, x );
@@ -53,6 +53,7 @@ dfi( int i, double x)
 double
 d2fi( int i, double x)
 {	
+	
 	if ( i == 0 ) {
                return 	0;
     } else if ( i == 1 ){
